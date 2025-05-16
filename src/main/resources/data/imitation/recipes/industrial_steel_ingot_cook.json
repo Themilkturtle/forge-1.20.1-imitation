@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "pattern": [
+    ""
+  ],
+  "ingredients": [
+    {
+      "item": "imitation:meat_block"
+    }
+  ],
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "imitation:industrial_steel_ingot",
+  "experience": 20,
+  "cookingtime": 500
+}

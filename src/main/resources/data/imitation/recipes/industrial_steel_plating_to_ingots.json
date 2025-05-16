@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "imitation:industrial_steel_plating"
+    }
+  ],
+  "result": {
+    "item": "imitation:industrial_steel_ingot"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "   ",
+    "PPP",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "imitation:industrial_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "imitation:industrial_steel_plating",
+    "count": 3
+  },
+  "show_notification": true
+}

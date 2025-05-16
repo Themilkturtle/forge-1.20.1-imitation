@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "pattern": [
+    ""
+  ],
+  "ingredients": [
+    {
+      "item": "imitation:ball_of_flesh"
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+    },
+    {
+      "item": "imitation:ball_of_flesh"
+    }
+  ],
+  "result": {
+    "item": "imitation:meat_block",
+    "count": 1
+  }
+}

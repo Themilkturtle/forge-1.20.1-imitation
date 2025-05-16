@@ -1,9 +1,12 @@
 {
   "item.imitation.ball_of_flesh": "Ball Of Flesh",
+  "item.imitation.critical_coal": "Critical Coal",
+  "item.imitation.industrial_steel_ingot": "Industrial Steel Ingot",
 
   "item.imitation.mod_logo": "Mod Logo",
 
-
+"block.imitation.meat_block" : "Meat Block",
+"block.imitation.industrial_steel_plating" : "Industrial Steel Plating",
 
 
   "creativetab.imitation": "Imitation"
