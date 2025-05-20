@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "": {
+      "model" : "imitation:block/aragonite_deposit"
+    }
+  }
+}

@@ -23,7 +23,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BALL_OF_FLESH.get());
                         pOutput.accept(ModItems.CRITICAL_COAL.get());
                         pOutput.accept(ModItems.INDUSTRIAL_STEEL_INGOT.get());
+                        pOutput.accept(ModItems.ARAGONITE.get());
                         pOutput.accept(ModBlocks.MEAT_BLOCK.get());
+                        pOutput.accept(ModBlocks.ARAGONITE_DEPOSIT.get());
                         pOutput.accept(ModBlocks.INDUSTRIAL_STEEL_PLATING.get());
                     })
 

@@ -24,6 +24,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MEAT_BLOCK = registryObject("meat_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.SCULK)));
+    public static final RegistryObject<Block> ARAGONITE_DEPOSIT = registryObject("aragonite_deposit",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.SCULK)));
     public static final RegistryObject<Block> INDUSTRIAL_STEEL_PLATING = registryObject("industrial_steel_plating",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
 
