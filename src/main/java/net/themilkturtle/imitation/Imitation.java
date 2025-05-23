@@ -17,6 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.themilkturtle.imitation.block.ModBlocks;
 import net.themilkturtle.imitation.item.ModCreativeModeTabs;
 import net.themilkturtle.imitation.item.ModItems;
+import net.themilkturtle.imitation.sound.ModSounds;
 import org.slf4j.Logger;
 
 @Mod(Imitation.MOD_ID)
@@ -31,6 +32,8 @@ public class Imitation
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         ModBlocks.register(modEventBus);
 

@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "": {
+      "model" : "imitation:block/sentient_meat_block"
+    }
+  }
+}

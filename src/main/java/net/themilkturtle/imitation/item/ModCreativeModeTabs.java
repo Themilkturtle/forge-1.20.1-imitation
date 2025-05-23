@@ -24,6 +24,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CRITICAL_COAL.get());
                         pOutput.accept(ModItems.INDUSTRIAL_STEEL_INGOT.get());
                         pOutput.accept(ModItems.ARAGONITE.get());
+                        pOutput.accept(ModItems.SOUL.get());
+                        pOutput.accept(ModBlocks.BATTERY_CELL.get());
+                        pOutput.accept(ModBlocks.SENTIENT_MEAT_BLOCK.get());
                         pOutput.accept(ModBlocks.MEAT_BLOCK.get());
                         pOutput.accept(ModBlocks.ARAGONITE_DEPOSIT.get());
                         pOutput.accept(ModBlocks.INDUSTRIAL_STEEL_PLATING.get());

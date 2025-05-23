@@ -5,12 +5,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.themilkturtle.imitation.Imitation;
+import net.themilkturtle.imitation.block.custom.Sentient_meat_block;
+import net.themilkturtle.imitation.block.custom.battery_cell;
 import net.themilkturtle.imitation.item.ModItems;
 
 import java.util.function.Supplier;
@@ -24,10 +27,19 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> MEAT_BLOCK = registryObject("meat_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.SCULK)));
+
+    public static final RegistryObject<Block> SENTIENT_MEAT_BLOCK = registryObject("sentient_meat_block",
+            () -> new Sentient_meat_block(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.SCULK)));
+
+    public static final RegistryObject<Block> BATTERY_CELL = registryObject("battery_cell",
+            () -> new battery_cell(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().sound(SoundType.NETHERITE_BLOCK)));
+
+
     public static final RegistryObject<Block> ARAGONITE_DEPOSIT = registryObject("aragonite_deposit",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.SCULK)));
     public static final RegistryObject<Block> INDUSTRIAL_STEEL_PLATING = registryObject("industrial_steel_plating",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.NETHERITE_BLOCK)));
+
 
     private static <T extends Block>RegistryObject<T> registryObject(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -19,6 +19,9 @@ public static final RegistryObject<Item> MOD_LOGO = ITEMS.register("mod_logo",
             () ->new Item(new Item.Properties()));
     public static final RegistryObject<Item> ARAGONITE = ITEMS.register("aragonite",
             () ->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SOUL = ITEMS.register("soul",
+            () ->new Item(new Item.Properties()));
+
 
     public static final RegistryObject<Item> INDUSTRIAL_STEEL_INGOT = ITEMS.register("industrial_steel_ingot",
             () ->new Item(new Item.Properties()));
