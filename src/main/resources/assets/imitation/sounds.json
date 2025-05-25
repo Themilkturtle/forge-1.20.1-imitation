@@ -1,0 +1,19 @@
+{
+  "sentient_meat_block_groan": {
+    "subtitle": "sounds.imitation.sentient_meat_block_groan",
+    "sounds" : [
+      "imitation:sentient_meat_block_groan_1",
+      "imitation:sentient_meat_block_groan_2",
+      "imitation:sentient_meat_block_groan_3",
+      "imitation:sentient_meat_block_groan_4",
+      "imitation:sentient_meat_block_groan_5"
+    ]
+  },
+
+  "battery_cell_break": {
+    "subtitle": "sounds.imitation.battery_cell_break",
+    "sounds" : [
+      "imitation:battery_cell_break"
+    ]
+  }
+}

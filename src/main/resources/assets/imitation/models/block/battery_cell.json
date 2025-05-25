@@ -4,7 +4,7 @@
 
 	"textures": {
 		"1": "imitation:block/battery_cell",
-		"particle": "imitation:block/battery_cell"
+		"particle": "imitation:block/battery_cell_breaking"
 	},
 	"elements": [
 		{

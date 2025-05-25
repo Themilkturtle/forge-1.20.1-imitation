@@ -12,7 +12,9 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Imitation.MOD_ID);
 
-    public static final RegistryObject<SoundEvent> SENTIENT_MEAT_BLOCK_GROAN_1 = registerSoundEvents("sentient_meat_block_groan");
+    public static final RegistryObject<SoundEvent> SENTIENT_MEAT_BLOCK_GROAN = registerSoundEvents("sentient_meat_block_groan");
+    public static final RegistryObject<SoundEvent> BATTERY_CELL_BREAK = registerSoundEvents("battery_cell_break");
+
 
 
 

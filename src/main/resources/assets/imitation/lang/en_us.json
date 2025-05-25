@@ -9,6 +9,10 @@
 
   "item.imitation.mod_logo": "Mod Logo",
 
+
+  "sounds.imitation.sentient_meat_block_groan": "Sentient Meat Groan",
+  "sounds.imitation.battery_cell_break": "Battery cell break",
+
 "block.imitation.meat_block" : "Meat Block",
 "block.imitation.sentient_meat_block" : "Sentient Meat Block",
 "block.imitation.aragonite_deposit" : "Aragonite Deposit",

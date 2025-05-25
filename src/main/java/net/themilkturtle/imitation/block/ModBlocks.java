@@ -32,7 +32,7 @@ public class ModBlocks {
             () -> new Sentient_meat_block(BlockBehaviour.Properties.copy(Blocks.NETHER_WART_BLOCK).sound(SoundType.SCULK)));
 
     public static final RegistryObject<Block> BATTERY_CELL = registryObject("battery_cell",
-            () -> new battery_cell(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().sound(SoundType.NETHERITE_BLOCK)));
+            () -> new battery_cell(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
 
     public static final RegistryObject<Block> ARAGONITE_DEPOSIT = registryObject("aragonite_deposit",
